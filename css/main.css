@@ -1,4 +1,50 @@
+@font-face{
+	font-family: ballpark;
+	src: url(../fonts/ballpark.ttf);
+
+}
+
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;	
+}
+
 body{
 	font-size: 12px;
 	line-height: 1.5;
+	color: #fff;
+}
+
+.top-block{
+	background: url(../img/bg-top-block.png) repeat 0 0;
+	border-bottom: 4px solid #242424;
+}
+
+header{
+	padding-top: 24px;
+	padding-bottom: 15px;
+}
+
+.logo{
+	color: #e0e0e0;
+	font-size: 36px;
+	font-family: ballpark;
+}
+
+.logo:hover{
+	color: #e0e0e0;
+}
+
+nav a{
+	color: #e8e8e8;
+	font-weight: bold;
+	padding: 12px 14px;
+}
+
+nav a:hover{
+	color: #e8e8e8;
 }
