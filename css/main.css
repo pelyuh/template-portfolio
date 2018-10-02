@@ -22,6 +22,7 @@ body{
 .top-block{
 	background: url(../img/bg-top-block.png) repeat 0 0;
 	border-bottom: 4px solid #242424;
+	padding-bottom: 85px;
 }
 
 header{
@@ -43,8 +44,121 @@ nav a{
 	color: #e8e8e8;
 	font-weight: bold;
 	padding: 12px 14px;
+	display: block;
 }
 
 nav a:hover{
 	color: #e8e8e8;
+}
+
+nav .list-inline>li{
+	padding-right: 24px;
+	background: url(../img/bg-nav-li.png) no-repeat 100% 50%;
+}
+
+nav li.active a, nav a:hover{
+	background: linear-gradient(to bottom, #282828, #2e2e2e);
+	border-radius: 3px; 
+}
+
+form{
+	background: #2f2f2f;
+	border-top: 1px solid #262626;
+	border-radius: 17px;
+	padding: 9px 0;
+}
+
+input[type="text"]{
+	width: 75%;
+	outline: none;
+}
+
+input, button{
+	background: transparent;
+	border: none;
+}
+
+.middle-button{
+	font-size: 13px;
+	color: #fff;
+	text-transform: capitalize;
+	background: #969697;
+	border: none;
+	padding: 11px 25px;
+}
+
+.carousel-indicators{
+	text-align: right;
+	margin: 0;
+	bottom: -15px;
+	width: 70%;
+}
+
+.carousel-indicators li, .carousel-indicators .active{
+	height: 5px;
+	width: 23px;
+	border: none;
+	background: #888888;
+	border-radius: 0;
+}
+
+.carousel-indicators .active{
+	background: #bebebe;
+	margin: 1px;
+}
+
+.pb-25{
+	padding-bottom: 25px;
+}
+
+.pb-30{
+	padding-bottom: 30px;
+}
+
+.pt-20{
+	padding-top: 20px;
+}
+
+.middle-white-block{
+	background: #fff;
+	color: #333333;
+}
+
+.flex-block{
+	display: flex;
+}
+
+.flex-item{
+	padding: 25px;
+	margin-top: -65px;
+	background: #fff;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.flex-item h4{
+	font-size: 15px;
+	color: #171717;
+	font-weight: bold;
+}
+
+.grey{
+	color: #8e8e8e;
+}
+
+.read-more{
+	color: #333;
+	font-size: 12px;
+	text-transform: capitalize;
+	font-weight: bold;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	background: url(../img/divider.png) repeat-x 0 0;
+	display: block;
+}
+
+.read-more:hover{
+	background: url(../img/divider.png) repeat-x 0 100% #777;
+	color: #fff;
+	transition: 1.5s background;
 }
