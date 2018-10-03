@@ -160,5 +160,16 @@ input, button{
 .read-more:hover{
 	background: url(../img/divider.png) repeat-x 0 100% #777;
 	color: #fff;
-	transition: 1.5s background;
+	transition: 1.5s all;
+}
+
+.w100{
+	width: 100%;
+}
+
+.title-recent{
+	margin-left: 25px;
+	padding-bottom: 19px;
+	margin-bottom: 30px;
+	background: url(../img/divider.png) repeat-x 0 100%;
 }
