@@ -215,4 +215,29 @@ input, button{
 .top-footer{
 	background: url(../img/bg-top-block.png) repeat 0 0;
 	border-top: 4px solid #242424;
+	padding: 35px 0 30px;
+}
+
+.footer-title{
+	font-size: 16px;
+	text-transform: capitalize;
+	font-weight: bold;
+	padding-bottom: 21px;
+	border-bottom: 1px solid #707070;
+}
+
+.widget-block{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 12px;
+}
+
+.bottom-footer{
+	background: url(../img/bg-footer-block.png) repeat 0 0;
+	padding: 20px 0;
+}
+
+.bottom-footer, .bottom-footer a{
+	color: #808080;
+	line-height: 1;
 }
