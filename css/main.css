@@ -91,7 +91,7 @@ input, button{
 }
 
 .carousel-indicators{
-	text-align: right;
+	//text-align: right;
 	margin: 0;
 	bottom: -15px;
 	width: 70%;
@@ -125,7 +125,7 @@ input, button{
 .middle-white-block{
 	background: #fff;
 	color: #333333;
-	padding-bottom: 49px;
+	padding-bottom: 19px;
 }
 
 .flex-block{
@@ -240,4 +240,22 @@ input, button{
 .bottom-footer, .bottom-footer a{
 	color: #808080;
 	line-height: 1;
+}
+
+
+
+@media (min-width: 769px) and (max-width: 992px){
+	.plr-0{
+		padding: 0;
+	}
+
+	.carousel-indicators{
+		text-align: center;
+	}
+}
+
+@media (max-width: 768px){
+	.carousel-indicators{
+		text-align: center;
+	}
 }
