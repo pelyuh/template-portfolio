@@ -95,7 +95,6 @@ input, button{
 }
 
 .carousel-indicators{
-	//text-align: right;
 	margin: 0;
 	bottom: -15px;
 	width: 70%;
@@ -272,8 +271,8 @@ input, button{
 	}
 
 	.footer-title {
-    	padding-top: 21px;
-    	padding-bottom: 11px;
+		padding-top: 21px;
+		padding-bottom: 11px;
 	}
 
 	.top-footer{
