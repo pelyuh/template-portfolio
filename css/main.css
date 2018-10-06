@@ -71,6 +71,10 @@ form{
 	padding: 9px 0;
 }
 
+.nav-right{
+	float: right;
+}
+
 input[type="text"]{
 	width: 75%;
 	outline: none;
@@ -244,18 +248,35 @@ input, button{
 
 
 
-@media (min-width: 769px) and (max-width: 992px){
+@media (min-width: 768px) and (max-width: 992px){
+	
 	.plr-0{
 		padding: 0;
 	}
-
-	.carousel-indicators{
+	
+	.nav-right{
+		float: none;
 		text-align: center;
 	}
 }
 
-@media (max-width: 768px){
-	.carousel-indicators{
+@media (max-width: 767px){
+	
+	.flex-block{
+		display: block;
+	}
+	
+	.nav-right{
+		float: none;
 		text-align: center;
+	}
+
+	.footer-title {
+    	padding-top: 21px;
+    	padding-bottom: 11px;
+	}
+
+	.top-footer{
+		padding-top: 0; 
 	}
 }
